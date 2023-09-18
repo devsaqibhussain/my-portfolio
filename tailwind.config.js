@@ -7,11 +7,15 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      keyframes:{
+        sideBar:{
+          "0%":{ transform: "translateY(100px)" },
+          "100%":{transform: "translateY(0px)"}
+        }
       },
+      animation:{
+        sideBar: "sideBar 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both"
+      }
     },
   },
   plugins: [],
