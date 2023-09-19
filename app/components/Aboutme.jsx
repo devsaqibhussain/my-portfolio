@@ -9,7 +9,7 @@ const Aboutme = () => {
   return (
     <div id='aboutme'>
         <h1 className={`${styles.header1}`}>About Me</h1>
-      <div className={`${styles.profileBg} shadow-inner m-auto rounded-xl p-4 sm:p-10 w-[80%] flex flex-col gap-5 justify-center items-center`}>
+      <div className={`${styles.profileBg} shadow-inner m-auto rounded-xl p-4 sm:p-10 w-full sm:w-[80%] flex flex-col gap-5 justify-center items-center`}>
         <FaQuoteLeft className={` text-stone-800 text-3xl`}/>
         <h2 className=' text-xl sm:text-2xl text-stone-800 font-bold'>
           Hello! I'm Saqib Hussain, a passionate Frontend Developer with a deep love for crafting beautiful and responsive user interfaces. With expertise in ReactJs, NextJs, and TailwindCSS, I thrive on turning complex ideas into user-friendly web experiences.
@@ -23,7 +23,7 @@ const Aboutme = () => {
         }}
         initial = "hidden"
         animate = "visible"
-        transition={{ duration: 2, delay:0.2, type: 'spring', bounce:0.75}}
+        transition={{ duration: 2, type: 'spring', bounce:0.75}}
         >
         <p className=' text-green-400 md:text-xl font-bold'>TOOLS I USE:</p>
         <div className='flex text-white items-center gap-4 justify-center text-4xl my-4'>

@@ -5,7 +5,7 @@ const App = () => {
     <div className='w-full bg-stone-900'>
       <div className="container m-auto">
           <Navbar/>
-        <div className=' px-2 sm:px-20'>
+        <div className=' px-5 sm:px-20'>
           <Hero/> 
           <Aboutme/> 
           <Project/> 
