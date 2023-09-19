@@ -17,6 +17,8 @@ const Project = () => {
         <Carousel
           infiniteLoop={true}
           showThumbs={false}
+          autoPlay = {true}
+          interval={2000}
         >
         {ProjectDetails.map((project,index) => {
           return (

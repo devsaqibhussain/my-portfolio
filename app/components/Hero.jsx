@@ -32,7 +32,7 @@ const Hero = () => {
       
     >
       <h1 className={`text-2xl sm:text-4xl font-semibold text-stone-100 text-start`}>
-        Hi, I'm <span className={`${styles.textColor1}`}>Saqib Hussain,</span><br />
+        Hi, I&apos;m <span className={`${styles.textColor1}`}>Saqib Hussain,</span><br />
         <span ref={anime} className={`${styles.textColor1}`}></span>
       </h1>
     

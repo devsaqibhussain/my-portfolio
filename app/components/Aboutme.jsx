@@ -12,7 +12,7 @@ const Aboutme = () => {
       <div className={`${styles.profileBg} shadow-inner m-auto rounded-xl p-4 sm:p-10 w-full sm:w-[80%] flex flex-col gap-5 justify-center items-center`}>
         <FaQuoteLeft className={` text-stone-800 text-3xl`}/>
         <h2 className=' text-xl sm:text-2xl text-stone-800 font-bold'>
-          Hello! I'm Saqib Hussain, a passionate Frontend Developer with a deep love for crafting beautiful and responsive user interfaces. With expertise in ReactJs, NextJs, and TailwindCSS, I thrive on turning complex ideas into user-friendly web experiences.
+          Hello! I&apos;m Saqib Hussain, a passionate Frontend Developer with a deep love for crafting beautiful and responsive user interfaces. With expertise in ReactJs, NextJs, and TailwindCSS, I thrive on turning complex ideas into user-friendly web experiences.
         </h2>
       </div>
 
