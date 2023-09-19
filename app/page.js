@@ -4,8 +4,8 @@ const App = () => {
   return (
     <div className='w-full bg-stone-900'>
       <div className="container m-auto">
-        <Navbar/>
-        <div className=' px-2 sm:px-0'>
+          <Navbar/>
+        <div className=' px-2 sm:px-20'>
           <Hero/> 
           <Aboutme/> 
           <Project/> 
