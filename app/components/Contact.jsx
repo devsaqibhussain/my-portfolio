@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div id="contact" className='mt-10'>
       <h1 className={`${styles.header1}`}>
-        Let's Collaborate
+        Let&apos;s Collaborate
       </h1>
       <div className=' shadow-inner rounded-xl flex flex-col justify-center items-center'>
         <div className={`text-lg sm:text-xl text-stone-800 font-semibold ${styles.profileBg} rounded-xl p-5 m-5 sm:m-0 sm:w-[80%]`}>
