@@ -39,9 +39,6 @@ const Hero = () => {
       <div className={`${styles.profileBg} rounded-full w-fit`}>
         <Image src={"/portfolioPic.png"} alt="author picture" width={350} height={350} />
       </div>
-
-      <div className={`absolute ${styles.bgGrad} top-1/2 right-0 `}/>
-
     </div>
   );
 };

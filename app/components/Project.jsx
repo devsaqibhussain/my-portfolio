@@ -18,20 +18,20 @@ const Project = () => {
           infiniteLoop={true}
           showThumbs={false}
           autoPlay = {true}
-          interval={2000}
+          interval={3000}
         >
         {ProjectDetails.map((project,index) => {
           return (
             <div key={index} className="relative flex justify-center items-center">
               <Image
                 src={project.img}
-                width={600}
-                height={300}
+                width={1920}
+                height={1080}
                 className=" rounded-xl"
                 alt={project.name}
               />
-              <div className=" absolute text-4xl text-emerald-400 bg-stone-800/75 rounded-full flex flex-col justify-center items-center p-4">
-                <h4 className="m-1 text-2xl font-bold">{project.name}</h4>
+              <div className=" absolute text-2xl sm:text-4xl text-green-400 bg-stone-800/75 rounded-full flex flex-col justify-center items-center px-6 bottom-8 animate-pulse">
+                <h4 className=" text-lg sm:text-xl font-bold">{project.name}</h4>
                 <div className="flex justify-center items-center gap-4">
                   <Link href={project.code} target="blank">
                     <HiCode/>  
