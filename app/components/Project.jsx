@@ -23,20 +23,22 @@ const Project = () => {
         {ProjectDetails.map((project,index) => {
           return (
             <div key={index} className="relative flex justify-center items-center">
-              <Image
-                src={project.img}
-                width={1920}
-                height={1080}
-                className=" rounded-xl"
-                alt={project.name}
-              />
+              <Link href={project.live} target="_blank">
+                <Image
+                  src={project.img}
+                  width={1920}
+                  height={1080}
+                  className=" rounded-xl"
+                  alt={project.name}
+                />
+              </Link>
               <div className=" absolute text-2xl sm:text-4xl text-green-400 bg-stone-800/75 rounded-full flex flex-col justify-center items-center px-6 bottom-8 animate-pulse">
                 <h4 className=" text-lg sm:text-xl font-bold">{project.name}</h4>
                 <div className="flex justify-center items-center gap-4">
-                  <Link href={project.code} target="blank">
+                  <Link href={project.code} target="_blank">
                     <HiCode/>  
                   </Link>
-                  <Link href={project.live} target="blank">
+                  <Link href={project.live} target="_blank">
                     <MdWebAsset/>
                   </Link>
                 </div>
