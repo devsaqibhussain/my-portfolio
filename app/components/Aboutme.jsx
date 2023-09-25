@@ -14,7 +14,7 @@ const Aboutme = () => {
   return (
     <div id='aboutme'>
       <h1 className={`${styles.header1}`}>About Me</h1>
-      <div className={`${styles.profileBg} shadow-inner m-auto rounded-xl p-4 sm:p-10 w-full sm:w-[80%] flex flex-col gap-5 justify-center items-center`}>
+      <div className={`${styles.profileBg} shadow-inner m-auto rounded-xl p-4 sm:p-10 w-full lg:w-[80%] flex flex-col gap-5 justify-center items-center`}>
         <FaQuoteLeft className={` text-stone-800 text-3xl`}/>
         <h2 className=' text-xl sm:text-2xl text-stone-800 font-bold'>
           Hello! I&apos;m Saqib Hussain, a passionate Frontend Developer with a deep love for crafting beautiful and responsive user interfaces. With expertise in ReactJs, NextJs, and TailwindCSS, I thrive on turning complex ideas into user-friendly web experiences.
@@ -41,7 +41,7 @@ const Aboutme = () => {
         </div>
       </motion.div>
 
-      <div className='m-auto sm:w-[80%] flex flex-col justify-center items-center'>
+      <div className='m-auto lg:w-[80%] flex flex-col justify-center items-center'>
         <h4 className=' text-lg sm:text-2xl font-bold text-green-400 mb-4'>My Certifications:</h4>
         <Carousel
           infiniteLoop={true}

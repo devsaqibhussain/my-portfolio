@@ -13,7 +13,7 @@ const Project = () => {
   return (
     <div className="mt-10" id="project">
       <h1 className={`${styles.header1}`}>My Projects</h1>
-      <div className="sm:w-[80%] m-auto">
+      <div className="lg:w-[80%] m-auto">
         <Carousel
           infiniteLoop={true}
           showThumbs={false}
